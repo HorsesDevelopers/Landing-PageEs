@@ -38,8 +38,39 @@ body {
   transition: color 0.2s;
   margin-right: 10px;
 }
-
-
+.nav-btn {
+  margin-left: 20px;
+  padding: 8px 18px;
+  background-color: #2d89ef;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.nav-btn:hover {
+  background-color: #1b5fa7;
+}
+/* ...existing code... */
+.lang-btn {
+  margin-left: 20px;
+  padding: 7px 16px;
+  background-color: #fff;
+  color: #1f5899;
+  border: 2px solid #1f5899;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.lang-btn:hover {
+  background-color: #1f5899;
+  color: #fff;
+}
+/* ...existing code... */
 .nav-links {
   display: flex;
   justify-content: center;
